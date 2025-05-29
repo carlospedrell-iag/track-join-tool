@@ -14,6 +14,7 @@ Track Join Tool is designed to:
 ## Requirements
 
 - Python 3.x
+- FFmpeg installed on your system (required for audio processing)
 - Required libraries:
   - pydub
   - mutagen
@@ -21,7 +22,11 @@ Track Join Tool is designed to:
 ## Installation
 
 1. Clone or download this repository
-2. Install the required dependencies (Recommend using python venv):
+2. Install FFmpeg:
+   - macOS: `brew install ffmpeg`
+   - Linux: `apt-get install ffmpeg`
+   - Windows: Download from [ffmpeg.org](https://ffmpeg.org/download.html)
+3. Install the required dependencies (Recommend using python venv):
 
 ```bash
 pip install -r requirements.txt
