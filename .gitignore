@@ -1,0 +1,10 @@
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.aac
+*.m4a
+*.wma
+/venv
+*.DS_Store
+*.asd
